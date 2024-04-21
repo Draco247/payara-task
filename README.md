@@ -16,7 +16,7 @@
 3. **Execution:**
    - Run the application using the generated JAR file:
      ```
-     java -jar target/log-parser.jar
+     java -jar target/logparser-1.0-SNAPSHOT.jar
      ```
 
 ## How to Run the Tests for the Application
@@ -42,7 +42,5 @@
 To further improve the application before distribution, consider implementing the following enhancements:
 
 - **User Interface:** Develop a user-friendly interface for better interaction.
-- **Performance Optimization:** Optimize the parsing and analysis algorithms for large log files.
-- **Error Handling:** Enhance error handling to provide meaningful messages to users.
-- **Logging:** Implement logging functionality to record application events and errors.
-- **Configuration:** Allow users to configure various aspects of the application, such as log file format and analysis options.
+- **Configurability:** Allow users to specify log file paths dynamically to enhance flexibility.
+- **Increase Unit Test Coverage:** Write more unit tests to validate functionality and ensure code quality.
